@@ -13,6 +13,7 @@ jobs:
   steps:
   - script: |
       perl -V
+      C:\Strawberry\c\bin\perl -V
     displayName: Vcpkg
 
 - job: VisualStudio2017
@@ -29,4 +30,5 @@ jobs:
   steps:
   - script: |
       perl -V
+      C:\Strawberry\c\bin\perl -V
     displayName: Vcpkg
