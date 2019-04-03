@@ -12,7 +12,9 @@ jobs:
     VCPKG_ROOT: $(Build.SourcesDirectory)\vcpkg
   steps:
   - script: |
+      perl -v
       perl -V
+      C:\Strawberry\perl\bin\perl -v
       C:\Strawberry\perl\bin\perl -V
     displayName: Vcpkg
 
@@ -29,6 +31,8 @@ jobs:
     VCPKG_ROOT: $(Build.SourcesDirectory)\vcpkg
   steps:
   - script: |
+      perl -v
       perl -V
+      C:\Strawberry\perl\bin\perl -v
       C:\Strawberry\perl\bin\perl -V
     displayName: Vcpkg
