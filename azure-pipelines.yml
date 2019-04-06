@@ -16,6 +16,8 @@ jobs:
       perl -V
       C:\Strawberry\perl\bin\perl -v
       C:\Strawberry\perl\bin\perl -V
+      echo %PATH%
+      which perl
     displayName: Vcpkg
 
 - job: VisualStudio2017
